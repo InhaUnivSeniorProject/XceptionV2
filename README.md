@@ -28,3 +28,16 @@ EntryFlow : inception A => inception B
 ExitFlow : inception C
 
 를 넣었을 때 `test accuracy : 88,05%` 로 기본 `Xception`보다 더 높은 성능을 보여줌
+
+# Data Augmentation
+
+1. Albumentation을 이용한 augmentation
+  - horizontal Flip, vertical Flip 조합을 이용했을 때 가장 성능이 좋았음
+2. GAN을 이용한 DATA Augmentation
+  - DCGAN
+  - LSGAN
+  - WGAN-GP
+  위의 세 GAN을 이용해 테스트 
+  - DCGAN과 LSGAN은 데이터의 양이 적어 loss가 발산하는 문제가 있었음
+  - WGAN-GP가 느리지만 안정적으로 학습이 잘되는 모습을 보여줌
+
