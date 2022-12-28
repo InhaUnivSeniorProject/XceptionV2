@@ -40,6 +40,8 @@ ExitFlow : inception C
   위의 세 GAN을 이용해 테스트 
   - DCGAN과 LSGAN은 데이터의 양이 적어 loss가 발산하는 문제가 있었음
   - WGAN-GP가 느리지만 안정적으로 학습이 잘되는 모습을 보여줌
+
+
   [(심정호, 김나연, 지도교수 최원익교수님)WGAN-GP와 Xception모델 변형을 통한 아토피 중증도 분류 모델 개선.pdf](https://github.com/simjeongho/XceptionV2/files/10311243/WGAN-GP.Xception.pdf)
 
   
